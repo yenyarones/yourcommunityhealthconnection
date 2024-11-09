@@ -120,12 +120,13 @@ section img {
     /* height: auto; Maintain aspect ratio  */
 }
 
-.mini-image {
-    height: 100%;
-    object-fit: cover;
+.shrink-image {
+    display: block;
+    margin: 0 auto;
     /* Make the image cover the entire div */
     display: block;
-    width: 100%;
+    width: 50%;
+    height: auto;
 }
 
 /* Styling for Main Text */
