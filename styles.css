@@ -120,6 +120,14 @@ section img {
     /* height: auto; Maintain aspect ratio  */
 }
 
+.mini-image {
+    height: 100%;
+    object-fit: cover;
+    /* Make the image cover the entire div */
+    display: block;
+    width: 100%;
+}
+
 /* Styling for Main Text */
 .main-text {
     text-align: center;
