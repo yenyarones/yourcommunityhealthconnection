@@ -13,7 +13,7 @@ body {
     margin: 10px; /* Add some space around the columns */ 
 } 
 .image { 
-    width: 100%; /* Make the images fill their container */ 
+    width: 30%; /* Make the images fill their container */ 
     height: auto; /* Maintain the aspect ratio */ 
 }
 
