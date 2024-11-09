@@ -158,7 +158,7 @@ section img {
     margin: 10px; /* Add some space around the columns */ 
 } 
 .image { 
-    width: 80%; /* Make the images fill their container */ 
+    width: 100%; /* Make the images fill their container */ 
     height: auto; /* Maintain the aspect ratio */ 
 }
 
