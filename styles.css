@@ -3,6 +3,20 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
+.image-row { 
+    display: flex; /* Use flexbox to align items horizontally */ 
+    justify-content: space-between; /* Space between the columns */ 
+} 
+
+.image-column { 
+    flex: 1; /* Each column will take equal space */ 
+    margin: 10px; /* Add some space around the columns */ 
+} 
+.image { 
+    width: 100%; /* Make the images fill their container */ 
+    height: auto; /* Maintain the aspect ratio */ 
+}
+
 /* Header Wrapper - Fixed to the Top */
 .header-wrapper {
     position: fixed;
