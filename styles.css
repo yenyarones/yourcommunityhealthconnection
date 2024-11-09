@@ -125,7 +125,7 @@ section img {
     margin: 0 auto;
     /* Make the image cover the entire div */
     display: block;
-    width: 20%;
+    width: 50%;
     height: auto;
 }
 
